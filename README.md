@@ -1,6 +1,6 @@
 # tutorials-nuxt
 
-> My shining Nuxt.js project
+> My outstanding Nuxt.js project
 
 ## Build Setup
 
