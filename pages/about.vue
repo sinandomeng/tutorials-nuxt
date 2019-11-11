@@ -35,7 +35,7 @@ export default {
     Logo
   },
   head: {
-    title: 'Home',
+    title: 'About',
     meta: [
       {
         name: 'description',
