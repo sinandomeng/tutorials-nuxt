@@ -1,0 +1,54 @@
+{
+  //------ <START> Default Workspace Settings </START> ------/>>
+  "editor.fontFamily": "'Dank Mono', 'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Comment",
+        "scope": [
+          "comment",
+          "punctuation.definition.comment"
+        ],
+        "settings": {
+          "foreground": "#498852"
+        }
+      }
+    ]
+  },
+  "explorer.autoReveal": false,
+  "explorer.decorations.badges": false,
+  "explorer.openEditors.visible": 0,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "terminal.integrated.fontFamily": "'Dank Mono'",
+  "window.zoomLevel": -0.5,
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+
+  //------ <START> Custom Workspace Settings </START> ------/>>
+  "editor.formatOnSave": false,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.validation.template": false
+}
