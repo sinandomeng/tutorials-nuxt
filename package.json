@@ -4,6 +4,9 @@
   "description": "My outstanding Nuxt.js project",
   "author": "Alfredo Flores",
   "private": true,
+  "engines": {
+    "node": "12.13.0"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "npm run precommit && nuxt build",
