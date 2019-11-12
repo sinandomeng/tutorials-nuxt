@@ -2,19 +2,16 @@
   <div class="container">
     <div>
       <logo />
-
       <h1 class="title">
         tutorials-nuxt
       </h1>
-
       <h2 class="subtitle">
-        My phenomenal Nuxt.js project
+        My superb Nuxt.js project
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
         </a>
-
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
@@ -33,23 +30,6 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
-  },
-  head: {
-    title: 'Home',
-    meta: [
-      {
-        name: 'description',
-        content: 'My custom description'
-      }
-    ]
-  },
-  asyncData() {
-    return new Promise((resolve) => {
-      // eslint-disable-next-line nuxt/no-timing-in-fetch-data
-      setTimeout(function() {
-        resolve({})
-      }, 500)
-    })
   }
 }
 </script>

@@ -1,7 +1,7 @@
 {
   "name": "tutorials-nuxt",
   "version": "1.0.0",
-  "description": "My outstanding Nuxt.js project",
+  "description": "My superb Nuxt.js project",
   "author": "Alfredo Flores",
   "private": true,
   "engines": {
@@ -21,16 +21,14 @@
     "@nuxtjs/pwa": "^3.0.0-0"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
     "@nuxtjs/eslint-config": "^1.0.1",
     "@nuxtjs/eslint-module": "^1.0.0",
-    "@nuxtjs/tailwindcss": "^1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
-    "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-prettier": "^3.0.1",
-    "glob-all": "^3.1.0",
-    "prettier": "^1.16.4",
-    "purgecss-webpack-plugin": "^1.6.0"
+    "prettier": "^1.16.4"
   }
 }

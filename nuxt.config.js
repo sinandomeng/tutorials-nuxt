@@ -1,7 +1,3 @@
-import path from 'path'
-import PurgecssPlugin from 'purgecss-webpack-plugin'
-import glob from 'glob-all'
-
 export default {
   mode: 'universal',
   /*
@@ -58,26 +54,9 @@ export default {
    ** Build configuration
    */
   build: {
-    extractCSS: true,
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-      // For PurgeCSS
-      if (!ctx.isDev) {
-        // Remove unused CSS using PurgeCSS. See https://github.com/FullHuman/purgecss
-        // for more information about PurgeCSS.
-        config.plugins.push(
-          new PurgecssPlugin({
-            paths: glob.sync([
-              path.join(__dirname, './pages/**/*.vue'),
-              path.join(__dirname, './layouts/**/*.vue'),
-              path.join(__dirname, './components/**/*.vue')
-            ]),
-            whitelist: ['html', 'body']
-          })
-        )
-      }
-    }
+    extend(config, ctx) {}
   }
 }
